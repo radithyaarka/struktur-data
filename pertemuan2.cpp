@@ -65,14 +65,16 @@ int main()
 
         if (input == 1)
         {
-            cout << "Students data:" << endl <<endl;
+            cout << "\nStudents data:" << endl <<endl;
             for (int i = 0; i < count; i++)
             {
+                cout << "==============" << endl;
                 cout << "Student " << i + 1 << ":" << endl;
                 cout << "Name: " << mhs[i].name << endl;
                 cout << "ID: " << mhs[i].nrp << endl;
                 cout << "Age: " << mhs[i].age << endl;
-                cout << "Gender: " << (mhs[i].gender ? "Male" : "Female") << endl << endl;
+                cout << "Gender: " << (mhs[i].gender ? "Male" : "Female");
+                cout << "\n==============" << endl << endl;
             }
         }
         else if (input == 2)
