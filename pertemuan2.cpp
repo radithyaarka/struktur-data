@@ -65,7 +65,7 @@ int main()
 
         if (input == 1)
         {
-            cout << "Students data:" << endl;
+            cout << "Students data:" << endl <<endl;
             for (int i = 0; i < count; i++)
             {
                 cout << "Student " << i + 1 << ":" << endl;
