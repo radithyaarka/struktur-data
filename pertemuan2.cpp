@@ -160,7 +160,7 @@ int main()
         }
         else if (input == 5)
         {
-            cout << "Exiting program..." << endl << endl;
+            cout << "\nExiting program..." << endl << endl;
             break;
         }
         else
