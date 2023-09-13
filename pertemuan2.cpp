@@ -24,19 +24,31 @@ int main()
     mhs[count].name = "arka";
     mhs[count].nrp = "1234567800";
     mhs[count].age = 20;
-    mhs[count].gender = true;  
+    mhs[count].gender = 1;  
     count++;
 
     mhs[count].name = "akra";
     mhs[count].nrp = "67890";
     mhs[count].age = 22;
-    mhs[count].gender = false; 
+    mhs[count].gender = 0; 
     count++;
 
     mhs[count].name = "areuka";
     mhs[count].nrp = "54321";
     mhs[count].age = 21;
-    mhs[count].gender = true;  
+    mhs[count].gender = 1;  
+    count++;
+
+    mhs[count].name = "step";
+    mhs[count].nrp = "696969";
+    mhs[count].age = 5;
+    mhs[count].gender = 0;  
+    count++;
+
+    mhs[count].name = "cel";
+    mhs[count].nrp = "911420";
+    mhs[count].age = 24;
+    mhs[count].gender = 1;  
     count++;
 }
 
@@ -45,8 +57,8 @@ int main()
         cout << "Menu:" << endl;
         cout << "1. Show students data" << endl;
         cout << "2. Add students data" << endl;
-        cout << "3. Delete students sata" << endl;
-        cout << "4. Change students sata" << endl;
+        cout << "3. Delete students data" << endl;
+        cout << "4. Change students data" << endl;
         cout << "5. Exit" << endl;
         cout << "Choose menu (1-5): " << endl;
         cin >> input;
